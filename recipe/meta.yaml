@@ -1,18 +1,18 @@
 {% set name = "oliver" %}
 {% set pip_name = "stjudecloud-oliver" %}
-{% set version = "1.1.0" %}
+{% set version = "1.2.0" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
-  url: "https://pypi.io/packages/source/{{ pip_name[0] }}/{{ pip_name }}/{{ pip_name }}-{{ version }}.tar.gz"
-  sha256: f586b19de32ebbaa379835dab3959bca2fea65462018e67900276a371dc59033 
+  url: https://pypi.io/packages/source/{{ pip_name[0] }}/{{ pip_name }}/{{ pip_name }}-{{ version }}.tar.gz
+  sha256: 178aff6305a47c00d03d570c90bb1e81562e59ea9916e1091878fb94b2d55cc9
 
 build:
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
   noarch: python
 
 requirements:
@@ -27,13 +27,13 @@ test:
     - oliver
 
 about:
-  home: "https://github.com/stjudecloud/oliver"
+  home: https://github.com/stjudecloud/oliver
   license: MIT
   license_family: MIT
   license_file: LICENSE.md
-  summary: "An opinionated Cromwell orchestration manager."
-  doc_url: "https://github.com/stjudecloud/oliver/blob/master/README.md"
-  dev_url: "https://github.com/stjudecloud/oliver/blob/master/docs/DEVELOPMENT.md"
+  summary: An opinionated Cromwell orchestration manager.
+  doc_url: https://github.com/stjudecloud/oliver/blob/master/README.md
+  dev_url: https://github.com/stjudecloud/oliver/blob/master/docs/DEVELOPMENT.md
 
 extra:
   recipe-maintainers:
