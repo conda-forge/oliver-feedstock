@@ -16,11 +16,10 @@ build:
   noarch: python
 
 requirements:
-  build:
-    - poetry >=1.0.3
   host:
     - pip
     - python >=3.0, <3.8
+    - poetry >=1.0.3
   run:
     - python >=3.0, <3.8
     - aiohttp ==3.6.2
