@@ -5,7 +5,7 @@ Home: https://github.com/stjudecloud/oliver
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: An opinionated Cromwell orchestration manager.
 
@@ -117,4 +117,5 @@ Feedstock Maintainers
 =====================
 
 * [@claymcleod](https://github.com/claymcleod/)
+* [@jsunny23](https://github.com/jsunny23/)
 
