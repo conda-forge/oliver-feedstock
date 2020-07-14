@@ -30,8 +30,8 @@ requirements:
     - requests ==2.22.0
     - tabulate ==0.8.6
     - tzlocal ==2.0.0
-    - mypy_boto3_batch ==1.12.21"
-    - mypy_boto3_logs ==1.12.21"
+    - mypy_boto3_batch ==1.12.21
+    - mypy_boto3_logs ==1.12.21
 
 test:
   imports:
