@@ -5,11 +5,13 @@ Home: https://github.com/stjudecloud/oliver
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/oliver-feedstock/blob/master/LICENSE.txt)
 
 Summary: An opinionated Cromwell orchestration manager.
 
+Development: https://github.com/stjudecloud/oliver/blob/master/docs/DEVELOPMENT.md
 
+Documentation: https://github.com/stjudecloud/oliver/blob/master/README.md
 
 Current build status
 ====================
