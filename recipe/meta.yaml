@@ -1,6 +1,6 @@
 {% set name = "oliver" %}
 {% set pip_name = "stjudecloud-oliver" %}
-{% set version = "1.4.9" %}
+{% set version = "1.4.10" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ pip_name[0] }}/{{ pip_name }}/{{ pip_name }}-{{ version }}.tar.gz
-  sha256: 5f358f7534b3e7ae4c6652729f0ac1f37ea410dab101b729d816d6ecae426dcd
+  sha256: 83674fb7399c4589c8d2d841a53c5dfa646e4d568ab5f4bbbcf788099258b9a1
 
 build:
   number: 0
